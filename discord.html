@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#130914" />
+  <meta name="description" content="Join MissEmiko's Discord communities — Creator Nation, Emiko Society and Minecraft Pakistan." />
+  <title>Discord Communities — MissEmiko</title>
+  <link rel="icon" type="image/png" href="logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="discord.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+</head>
+<body>
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+  <header class="site-header" id="top">
+    <nav class="nav wrap" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="MissEmiko home">
+        <span class="brand-mark"><img src="logo.png" width="40" height="40" alt="MissEmiko logo" /></span>
+        <span class="brand-name">miss<span>emiko</span></span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span>
+      </button>
+
+      <div class="nav-links" id="navLinks">
+        <a href="/#about">About</a>
+        <a href="/#services">What I do</a>
+        <a href="/#faq">FAQ</a>
+        <a href="/#contact">Contact</a>
+        <a class="nav-cta" href="/">
+          <i class="fa-solid fa-arrow-left" aria-hidden="true"></i> Back home
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="discord-page wrap">
+    <section class="discord-intro" data-reveal aria-labelledby="discordTitle">
+      <div class="eyebrow"><span class="live-dot"></span> DISCORD · COMMUNITIES</div>
+      <h1 id="discordTitle">Pick your <span class="gradient-text">server.</span></h1>
+      <p>Three communities, one Emiko. Jump into whichever fits your vibe — or join them all.</p>
+    </section>
+
+    <section class="server-list" aria-label="Discord servers">
+      <article class="server-card server-featured" data-reveal data-delay="100">
+        <div class="featured-glow" aria-hidden="true"></div>
+        <span class="featured-badge"><i class="fa-solid fa-star" aria-hidden="true"></i> FEATURED SERVER</span>
+        <div class="server-head">
+          <span class="server-emoji" aria-hidden="true">🌟</span>
+          <div>
+            <h2>Creator Nation</h2>
+            <p class="server-tag">The main hub for creators</p>
+          </div>
+        </div>
+        <p class="server-desc">Connect with fellow creators, share your work, get support and grow together. This is where the magic happens.</p>
+        <div class="server-actions">
+          <a class="button button-primary button-big" href="https://discord.gg/ZhwsgwhnAe" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-discord" aria-hidden="true"></i> Join Creator Nation <i class="fa-solid fa-arrow-up-right-from-square button-arrow" aria-hidden="true"></i>
+          </a>
+          <span class="server-link">discord.gg/ZhwsgwhnAe</span>
+        </div>
+      </article>
+
+      <div class="server-secondary">
+        <article class="server-card server-society" data-reveal data-delay="200">
+          <div class="server-head">
+            <span class="server-emoji" aria-hidden="true">💜</span>
+            <div>
+              <h2>Emiko Society</h2>
+              <p class="server-tag">Hang out with Emiko</p>
+            </div>
+          </div>
+          <div class="server-actions">
+            <a class="button button-ghost" href="https://discord.gg/x8RnnuMprg" target="_blank" rel="noopener noreferrer">
+              <i class="fa-brands fa-discord" aria-hidden="true"></i> Join server <i class="fa-solid fa-arrow-up-right-from-square button-arrow" aria-hidden="true"></i>
+            </a>
+            <span class="server-link">discord.gg/x8RnnuMprg</span>
+          </div>
+        </article>
+
+        <article class="server-card server-minecraft" data-reveal data-delay="300">
+          <div class="server-head">
+            <span class="server-emoji" aria-hidden="true">⛏️</span>
+            <div>
+              <h2>Minecraft Pakistan</h2>
+              <p class="server-tag">Build, mine and play together</p>
+            </div>
+          </div>
+          <div class="server-actions">
+            <a class="button button-ghost" href="https://discord.gg/hF6jdt4nj" target="_blank" rel="noopener noreferrer">
+              <i class="fa-brands fa-discord" aria-hidden="true"></i> Join server <i class="fa-solid fa-arrow-up-right-from-square button-arrow" aria-hidden="true"></i>
+            </a>
+            <span class="server-link">discord.gg/hF6jdt4nj</span>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer wrap">
+    <a class="brand footer-brand" href="/"><span class="brand-mark"><img src="logo.png" width="40" height="40" alt="MissEmiko logo" /></span><span class="brand-name">miss<span>emiko</span></span></a>
+    <p>Made with <span class="heart">♥</span> and a little bit of pink magic.</p>
+    <a class="back-top" href="#top">BACK TO TOP ↑</a>
+    <div class="footer-bottom">© <span id="year">2026</span> MissEmiko. All rights reserved.</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
